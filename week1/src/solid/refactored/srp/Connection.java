@@ -1,4 +1,4 @@
-package solid.srp;
+package solid.refactored.srp;
 
 public interface Connection {
     void dial(String pno);

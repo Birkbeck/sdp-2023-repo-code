@@ -1,4 +1,4 @@
-package solid.srp;
+package solid.refactored.srp;
 
 public class ModemImpl implements Connection, DataChannel {
     @Override
