@@ -19,6 +19,18 @@ public class LocalClassDemo {
         return new RandomSequence();
     }
 
+    public static IntSequence randomIntsAnonymous(int low, int high) {
+        return new IntSequence() {
+            public int next() {
+                return low + generator.nextInt(high - low + 1);
+            }
+
+            public boolean hasNext() {
+                return true;
+            }
+        };
+    }
+
     public static void main(String[] args) {
         IntSequence dieTosses = randomInts(1, 6);
         for (int i = 0; i < 10; i++)
