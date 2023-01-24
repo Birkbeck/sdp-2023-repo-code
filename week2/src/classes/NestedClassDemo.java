@@ -1,15 +1,15 @@
 package classes;
 
 class OuterClass {
-    private int var = 1;
+    private int variable = 1;
     class InnerClass {
-        private int var = 2; // shadows var from OuterClass
+        private int variable = 2; // shadows var from OuterClass
 
         int method1() {
-            return var; // refers to var from InnerClass
+            return variable; // refers to var from InnerClass
         }
         int method2() {
-            return OuterClass.this.var; // refers to var from OuterClass
+            return OuterClass.this.variable; // refers to var from OuterClass
         }
     }
 
