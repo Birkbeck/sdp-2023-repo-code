@@ -1,10 +1,9 @@
 package classes;
 
 class OuterClass {
-
-    private int var;
+    private int var = 1;
     class InnerClass {
-        private int var; // shadows var from OuterClass
+        private int var = 2; // shadows var from OuterClass
 
         int method1() {
             return var; // refers to var from InnerClass
@@ -15,8 +14,6 @@ class OuterClass {
     }
 
     static class StaticNestedClass {
-
-
         int method() {
             //return var; // not accessible
             //return OuterClass.this.var; // Outer.this not available
@@ -39,7 +36,10 @@ public class NestedClassDemo {
     public static void main(String... args) {
         OuterClass outer = new OuterClass();
         OuterClass.InnerClass inner = outer.new InnerClass();
+        System.out.println(inner.method1());
+        System.out.println(inner.method2());
 
         OuterClass.StaticNestedClass nested = new OuterClass.StaticNestedClass();
+        System.out.println(nested.method());
     }
 }
