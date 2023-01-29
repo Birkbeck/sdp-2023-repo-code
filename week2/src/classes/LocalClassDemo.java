@@ -15,7 +15,6 @@ public class LocalClassDemo {
                 return true;
             }
         }
-
         return new RandomSequence();
     }
 
