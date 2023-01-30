@@ -6,13 +6,7 @@ import java.util.stream.*;
 public class StreamDemo {
     public static void main(String[] args) {
         // Create a list of Integer values.
-        ArrayList<Integer> myList = new ArrayList<>();
-        myList.add(7);
-        myList.add(18);
-        myList.add(10);
-        myList.add(24);
-        myList.add(17);
-        myList.add(5);
+        List<Integer> myList = List.of(7, 18, 10, 24, 17, 5);
         System.out.println("Original list: " + myList);
         // Obtain a Stream to the array list.
         Stream<Integer> myStream = myList.stream();
