@@ -2,12 +2,21 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/worksheet-1-solid-principles-solutions/01-single-responsibility/01-single-responsibility.iml" filepath="$PROJECT_DIR$/worksheet-1-solid-principles-solutions/01-single-responsibility/01-single-responsibility.iml" />
+      <module fileurl="file://$PROJECT_DIR$/worksheet-1-solid-principles-solutions/02-open-closed/02-open-closed.iml" filepath="$PROJECT_DIR$/worksheet-1-solid-principles-solutions/02-open-closed/02-open-closed.iml" />
+      <module fileurl="file://$PROJECT_DIR$/worksheet-1-solid-principles-solutions/03-liskov-substitution/03-liskov-substitution.iml" filepath="$PROJECT_DIR$/worksheet-1-solid-principles-solutions/03-liskov-substitution/03-liskov-substitution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/worksheet-1-solid-principles-solutions/04-interface-segregation/04-interface-segregation.iml" filepath="$PROJECT_DIR$/worksheet-1-solid-principles-solutions/04-interface-segregation/04-interface-segregation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/worksheet-1-solid-principles-solutions/05-dependency-inversion/05-dependency-inversion.iml" filepath="$PROJECT_DIR$/worksheet-1-solid-principles-solutions/05-dependency-inversion/05-dependency-inversion.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/sdp-2023-repo-code.iml" filepath="$PROJECT_DIR$/.idea/sdp-2023-repo-code.iml" />
       <module fileurl="file://$PROJECT_DIR$/week1/week1.iml" filepath="$PROJECT_DIR$/week1/week1.iml" />
       <module fileurl="file://$PROJECT_DIR$/week1-java-features/week1-java-features.iml" filepath="$PROJECT_DIR$/week1-java-features/week1-java-features.iml" />
       <module fileurl="file://$PROJECT_DIR$/week2/week2.iml" filepath="$PROJECT_DIR$/week2/week2.iml" />
       <module fileurl="file://$PROJECT_DIR$/week2-lambdas-notes/week2-lambdas-notes.iml" filepath="$PROJECT_DIR$/week2-lambdas-notes/week2-lambdas-notes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week3/week3.iml" filepath="$PROJECT_DIR$/week3/week3.iml" />
       <module fileurl="file://$PROJECT_DIR$/week3-streams-notes/week3-streams-notes.iml" filepath="$PROJECT_DIR$/week3-streams-notes/week3-streams-notes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/worksheet-1-solid-principles-solutions/worksheet-1-solid-principles-solutions.iml" filepath="$PROJECT_DIR$/worksheet-1-solid-principles-solutions/worksheet-1-solid-principles-solutions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/worksheet-2-lambdas-solutions/worksheet-2-lambdas-solutions.iml" filepath="$PROJECT_DIR$/worksheet-2-lambdas-solutions/worksheet-2-lambdas-solutions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/worksheet-3-streams-solutions/worksheet-3-streams-solutions.iml" filepath="$PROJECT_DIR$/worksheet-3-streams-solutions/worksheet-3-streams-solutions.iml" />
     </modules>
   </component>
 </project>
