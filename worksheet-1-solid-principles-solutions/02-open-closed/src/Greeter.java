@@ -1,6 +1,7 @@
 public class Greeter {
     private Personality personality;
 
+    @Deprecated
     public Greeter() {
         this(() -> "Hello.");
     }

@@ -6,6 +6,7 @@ public class Board {
     int size;
     BoardPresenter presenter;
 
+    @Deprecated
     public Board() {
         this(3, new TextModeBoardPresenter());
     }

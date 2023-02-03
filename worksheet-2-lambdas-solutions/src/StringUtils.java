@@ -30,8 +30,7 @@ abstract class StringUtils {
      * @return the better String
      */
     public static String betterString(String s1, String s2, TwoStringPredicate lambda) {
-        if (lambda.findBest(s1, s2)) return s1;
-        return s2;
+        return lambda.findBest(s1, s2) ? s1 : s2;
     }
 
     /**
@@ -46,8 +45,7 @@ abstract class StringUtils {
      * @return the better Object of type T
      */
     public static <T> T betterElement(T t1, T t2, TwoElementPredicate<T> lambda) {
-        if (lambda.findBest(t1, t2)) return t1;
-        return t2;
+        return lambda.findBest(t1, t2) ? t1 : t2;
     }
 
     /**

@@ -12,7 +12,7 @@ public class PenguinTest {
         assertEquals(4, penguin.numberOfFeathers);
     }
 
-    @Disabled("method removed")
+    @Disabled("method fly removed")
     @Test
     public void testItCantActuallyFly() {
         Penguin penguin = new Penguin(5);
