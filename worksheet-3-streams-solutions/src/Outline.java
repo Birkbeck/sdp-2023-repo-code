@@ -2,6 +2,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.Random;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class Outline {
@@ -140,7 +141,18 @@ public class Outline {
                 .peek(s -> System.out.println("pre-filter2: " + s))
                 .filter(s -> s.contains("E"))
                 .findFirst();
-
+/*
+        Optional<String> r = Optional.empty();
+        for (String s : words) {
+            String s1 = s.toUpperCase();
+            if (s1.length() < 4) {
+                if (s1.contains("E")) {
+                    r = Optional.of(s1);
+                    break;
+                }
+            }
+        }
+*/
         System.out.println(result);
     }
 
@@ -208,7 +220,7 @@ public class Outline {
         System.out.println("11:");
         long numberOfDishes = Dish.getMenu().stream()
                 // map(dish -> 1) is a Supplier function taking a Dish object and returning an int.
-                .map(dish -> 1)
+                .mapToInt(dish -> 1)
                 // reduce(identity, accumulator), where
                 //      - the identity is a starting value and
                 //      - the accumulator is a binary function that adds the identity to
@@ -224,14 +236,17 @@ public class Outline {
     public static Integer[] getIntegerArray() {
         return new Integer[] { 1, 7, 3, 4, 8, 2 };
     }
+    public static int[] getIntArray() {
+        return new int[] { 1, 7, 3, 4, 8, 2 };
+    }
 
     // Given a list of numbers, print out the list of the squares
     // of each number. For example, given [1, 2, 3, 4, 5] you should print [1, 4, 9, 16, 25].
 
     public static void question12() {
         System.out.println("12:");
-        List<Integer> squares = Stream.of(getIntegerArray())
-                .map(x -> x * x)
+        List<Integer> squares = IntStream.of(getIntArray())
+                .mapToObj(x -> x * x)
                 .collect(Collectors.toList());
         System.out.println(squares);
     }
@@ -372,7 +387,7 @@ public class Outline {
 
 
     public static void main(String... args) { // varargs alternative to String[]
-        question1();
+        question6();
     }
 
 }

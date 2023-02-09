@@ -5,8 +5,8 @@
 		http://www.springframework.org/schema/beans	
 		http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
-    <bean id="renderer" class="helloworld.helloworld.StandardOutMessageRenderer">
+    <bean id="renderer" class="helloworld.StandardOutMessageRenderer">
         <property name="messageProvider" ref="provider"/>
     </bean>
-    <bean id="provider" class="helloworld.helloworld.HelloWorldMessageProvider"/>
+    <bean id="provider" class="helloworld.HelloWorldMessageProvider"/>
 </beans>

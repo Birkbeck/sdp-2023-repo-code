@@ -15,6 +15,6 @@
     <!-- Note that there is no messageProvider property in the renderer.
             It is because the wiring requirement is specified through
             @Autowired annotation  -->
-    <bean id="renderer" class="helloworld.helloworld.StandardOutMessageRenderer"/>
-    <bean id="provider" class="helloworld.helloworld.HelloWorldMessageProvider"/>
+    <bean id="renderer" class="helloworld.StandardOutMessageRenderer"/>
+    <bean id="provider" class="helloworld.HelloWorldMessageProviderAlternative"/>
 </beans>
