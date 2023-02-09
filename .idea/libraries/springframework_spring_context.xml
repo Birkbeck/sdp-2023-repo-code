@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="springframework.spring.context" type="repository">
+    <properties maven-id="org.springframework:spring-context:6.0.4" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/6.0.4/spring-context-6.0.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/6.0.4/spring-aop-6.0.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/6.0.4/spring-beans-6.0.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/6.0.4/spring-core-6.0.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jcl/6.0.4/spring-jcl-6.0.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-expression/6.0.4/spring-expression-6.0.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
