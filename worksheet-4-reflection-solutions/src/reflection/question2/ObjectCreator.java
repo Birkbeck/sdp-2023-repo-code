@@ -1,8 +1,8 @@
 package reflection.question2;
 
 import java.lang.reflect.Constructor;
-import java.lang.reflect.Type;
 import java.util.Arrays;
+import java.util.Map;
 
 /**
  * An object created from a fully qualified Java class name and list of arguments,
@@ -70,6 +70,17 @@ public class ObjectCreator {
         return null;
     }
 
+    private static final Map<Class<?>, Class<?>> PRIMITIVE_TYPE_WRAPPERS = Map.of(
+            int.class, Integer.class,
+            long.class, Long.class,
+            boolean.class, Boolean.class,
+            byte.class, Byte.class,
+            char.class, Character.class,
+            float.class, Float.class,
+            double.class, Double.class,
+            short.class, Short.class,
+            void.class, Void.class);
+
     /**
      * Return the correct Wrapper class if testClass is primitive
      *
@@ -77,16 +88,6 @@ public class ObjectCreator {
      * @return Object class or testClass
      */
     private static Class<?> toWrapper(Class<?> testClass) {
-        if (!testClass.isPrimitive()) return testClass;
-        if (testClass == Integer.TYPE) return Integer.class;
-        if (testClass == Long.TYPE) return Long.class;
-        if (testClass == Boolean.TYPE) return Boolean.class;
-        if (testClass == Byte.TYPE) return Byte.class;
-        if (testClass == Character.TYPE) return Character.class;
-        if (testClass == Float.TYPE) return Float.class;
-        if (testClass == Double.TYPE) return Double.class;
-        if (testClass == Short.TYPE) return Short.class;
-        if (testClass == Void.TYPE) return Void.class;
-        return testClass;
+        return PRIMITIVE_TYPE_WRAPPERS.getOrDefault(testClass, testClass);
     }
 }
