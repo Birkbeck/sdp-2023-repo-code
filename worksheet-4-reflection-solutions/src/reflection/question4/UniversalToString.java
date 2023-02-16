@@ -48,7 +48,7 @@ public class UniversalToString {
                 // get and assign field values for primitive types
                 if (fieldTypeClass.isPrimitive()) {
                     fieldValues.add(fld.getName() + "="
-                        + (fieldTypeClass == Character.TYPE ? "'" + fieldValue + "'" : fieldValue));
+                        + (fieldTypeClass == char.class ? "'" + fieldValue + "'" : fieldValue));
                 } else {
                     try {
                         // check if there's a declared toString method

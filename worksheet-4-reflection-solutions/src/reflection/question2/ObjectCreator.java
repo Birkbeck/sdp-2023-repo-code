@@ -13,15 +13,17 @@ public class ObjectCreator {
 
     public static void main(String[] args) {
         if (args.length > 0) {
-            Object obj1;
             try {
-                if (args.length > 1) {
-                    obj1 = builder(args[0], Arrays.copyOfRange(args, 1, args.length));
-                } else {
-                    obj1 = builder(args[0], new String[]{});
-                }
-                if (obj1 != null) System.out.println(obj1 + " - " + obj1.getClass());
-            } catch (ClassNotFoundException e) {
+                Object obj1 = args.length > 1
+                        ? builder(args[0], Arrays.copyOfRange(args, 1, args.length))
+                        : builder(args[0], new String[]{});
+
+                if (obj1 != null)
+                    System.out.println(obj1 + " - " + obj1.getClass());
+                else
+                    System.out.println("Failed to create " + Arrays.toString(args));
+            }
+            catch (ClassNotFoundException e) {
                 e.printStackTrace();
             }
         }
@@ -57,8 +59,10 @@ public class ObjectCreator {
                     // return instance ob object using the successful constructor
                     // and parameters of the right class types.
                     return candidateConstructor.newInstance(parameterObjs);
-                } catch (NoSuchMethodException ignored) {
-                } catch (Exception e) {
+                }
+                catch (NoSuchMethodException ignored) {
+                }
+                catch (Exception e) {
                     e.getStackTrace();
                 }
             }
