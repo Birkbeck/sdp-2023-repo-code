@@ -2,7 +2,12 @@ package creational.builder.person;
 
 public class Example {
     public static void main(String[] args) {
-        Person p = Person.PersonBuilder.aPerson().withFirst("Fred").withSecond("Bloggs").withAge(12).build();
+        Person p = Person.PersonBuilder
+                .aPerson()
+                .withFirst("Fred")
+                .withSecond("Bloggs")
+                .withAge(12)
+                .build();
         System.out.println(p);
     }
 }

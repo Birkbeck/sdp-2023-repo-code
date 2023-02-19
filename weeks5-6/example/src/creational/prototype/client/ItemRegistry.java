@@ -1,10 +1,10 @@
 package creational.prototype.client;
 
-import java.util.Hashtable;
+import java.util.HashMap;
 import java.util.Map;
 
 public class ItemRegistry {
-    private final Map<String, Item> map = new Hashtable<>();
+    private final Map<String, Item> map = new HashMap<>();
 
     public ItemRegistry() {
         loadCache();

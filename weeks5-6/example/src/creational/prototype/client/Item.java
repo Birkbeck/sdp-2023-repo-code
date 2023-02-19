@@ -2,7 +2,7 @@ package creational.prototype.client;
 
 //Prototype
 
-public abstract class Item {
+public abstract class Item implements Cloneable {
     private String title;
     private double price;
 
