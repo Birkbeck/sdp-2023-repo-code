@@ -28,7 +28,7 @@ import static org.junit.jupiter.api.Assertions.*;
  * <li>any method that returns an int</li>
  * <li>missing a zero-argument constructor</li></ul>
  */
-public class ParamTest {
+public class AutograderParameterizedTest {
 
     @ParameterizedTest
     @ValueSource(classes = {BadStudentAssignment.class, GoodStudentAssignment.class})

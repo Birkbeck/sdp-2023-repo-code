@@ -14,10 +14,6 @@ import java.util.List;
  */
 public class UniversalToString {
 
-    public static void main(String[] args) {
-
-    }
-
     /**
      * Returns all declared fields (public and non-public) in the parameter obj.
      * The class name and field name/value pairs are returned as a String
@@ -49,7 +45,8 @@ public class UniversalToString {
                 if (fieldTypeClass.isPrimitive()) {
                     fieldValues.add(fld.getName() + "="
                         + (fieldTypeClass == char.class ? "'" + fieldValue + "'" : fieldValue));
-                } else {
+                }
+                else {
                     try {
                         // check if there's a declared toString method
                         Method m = fieldTypeClass.getDeclaredMethod("toString");
@@ -57,12 +54,14 @@ public class UniversalToString {
                         fieldValues.add(fld.getName() + "="
                             + (fieldTypeClass == String.class && fieldValue != null
                             ? "\"" + fieldValue + "\"" : fieldValue));
-                    } catch (NoSuchMethodException e) {
+                    }
+                    catch (NoSuchMethodException e) {
                         // if there's no toString - recursively call GeneralToString on the fieldValue Object
                         fieldValues.add(fld.getName() + "=" + toString(fieldValue));
                     }
                 }
-            } catch (IllegalAccessException e) {
+            }
+            catch (IllegalAccessException e) {
                 fieldValues.add(fld.getName() + "=IllegalAccess");
             }
         }

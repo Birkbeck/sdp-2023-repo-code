@@ -9,7 +9,7 @@ import java.util.Map;
  * or just a fully qualified Java class name, any arguments being
  * supplied via the command line.
  */
-public class ObjectCreator {
+public class InstantiateClass {
 
     public static void main(String[] args) {
         if (args.length > 0) {
