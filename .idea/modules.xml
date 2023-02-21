@@ -7,6 +7,24 @@
       <module fileurl="file://$PROJECT_DIR$/worksheet-1-solid-principles-solutions/03-liskov-substitution/03-liskov-substitution.iml" filepath="$PROJECT_DIR$/worksheet-1-solid-principles-solutions/03-liskov-substitution/03-liskov-substitution.iml" />
       <module fileurl="file://$PROJECT_DIR$/worksheet-1-solid-principles-solutions/04-interface-segregation/04-interface-segregation.iml" filepath="$PROJECT_DIR$/worksheet-1-solid-principles-solutions/04-interface-segregation/04-interface-segregation.iml" />
       <module fileurl="file://$PROJECT_DIR$/worksheet-1-solid-principles-solutions/05-dependency-inversion/05-dependency-inversion.iml" filepath="$PROJECT_DIR$/worksheet-1-solid-principles-solutions/05-dependency-inversion/05-dependency-inversion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week4/dependency-injection/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/week4/dependency-injection/HelloWorld/HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week4/dependency-injection/HelloWorldCommandLineArguments/HelloWorldCommandLineArguments.iml" filepath="$PROJECT_DIR$/week4/dependency-injection/HelloWorldCommandLineArguments/HelloWorldCommandLineArguments.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week4/dependency-injection/HelloWorldDecoupled/HelloWorldDecoupled.iml" filepath="$PROJECT_DIR$/week4/dependency-injection/HelloWorldDecoupled/HelloWorldDecoupled.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week4/dependency-injection/HelloWorldDecoupledInterface/HelloWorldDecoupledInterface.iml" filepath="$PROJECT_DIR$/week4/dependency-injection/HelloWorldDecoupledInterface/HelloWorldDecoupledInterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week4/dependency-injection/HelloWorldDecoupledInterfaceWithFactory/HelloWorldDecoupledInterfaceWithFactory.iml" filepath="$PROJECT_DIR$/week4/dependency-injection/HelloWorldDecoupledInterfaceWithFactory/HelloWorldDecoupledInterfaceWithFactory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week4/dependency-injection/HelloWorldSpring/HelloWorldSpring.iml" filepath="$PROJECT_DIR$/week4/dependency-injection/HelloWorldSpring/HelloWorldSpring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week4/dependency-injection/HelloWorldSpringDI/HelloWorldSpringDI.iml" filepath="$PROJECT_DIR$/week4/dependency-injection/HelloWorldSpringDI/HelloWorldSpringDI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week4/dependency-injection/HelloWorldSpringDIBasedOnXML/HelloWorldSpringDIBasedOnXML.iml" filepath="$PROJECT_DIR$/week4/dependency-injection/HelloWorldSpringDIBasedOnXML/HelloWorldSpringDIBasedOnXML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week4/dependency-injection/HelloWorldSpringDIBasedOnXMLWithConstructorArg/HelloWorldSpringDIBasedOnXMLWithConstructorArg.iml" filepath="$PROJECT_DIR$/week4/dependency-injection/HelloWorldSpringDIBasedOnXMLWithConstructorArg/HelloWorldSpringDIBasedOnXMLWithConstructorArg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week4/dependency-injection/HelloWorldSpringDIWIthAnnotation/HelloWorldSpringDIWIthAnnotation.iml" filepath="$PROJECT_DIR$/week4/dependency-injection/HelloWorldSpringDIWIthAnnotation/HelloWorldSpringDIWIthAnnotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week4/dependency-injection/HelloWorldSpringDIWithAutoscan/HelloWorldSpringDIWithAutoscan.iml" filepath="$PROJECT_DIR$/week4/dependency-injection/HelloWorldSpringDIWithAutoscan/HelloWorldSpringDIWithAutoscan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week4/dependency-injection/HelloWorldSpringDIWithConstructorAnnotation/HelloWorldSpringDIWithConstructorAnnotation.iml" filepath="$PROJECT_DIR$/week4/dependency-injection/HelloWorldSpringDIWithConstructorAnnotation/HelloWorldSpringDIWithConstructorAnnotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weeks5-6/banas/banas.iml" filepath="$PROJECT_DIR$/weeks5-6/banas/banas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week4/dependency-injection/dependency-injection.iml" filepath="$PROJECT_DIR$/week4/dependency-injection/dependency-injection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weeks5-6/example/example.iml" filepath="$PROJECT_DIR$/weeks5-6/example/example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weeks5-6/from-gof-to-lambda/from-gof-to-lambda.iml" filepath="$PROJECT_DIR$/weeks5-6/from-gof-to-lambda/from-gof-to-lambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weeks5-6/refactoring-guru/refactoring-guru.iml" filepath="$PROJECT_DIR$/weeks5-6/refactoring-guru/refactoring-guru.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week4/reflection/reflection.iml" filepath="$PROJECT_DIR$/week4/reflection/reflection.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/sdp-2023-repo-code.iml" filepath="$PROJECT_DIR$/.idea/sdp-2023-repo-code.iml" />
       <module fileurl="file://$PROJECT_DIR$/week1/week1.iml" filepath="$PROJECT_DIR$/week1/week1.iml" />
       <module fileurl="file://$PROJECT_DIR$/week1-java-features/week1-java-features.iml" filepath="$PROJECT_DIR$/week1-java-features/week1-java-features.iml" />
@@ -14,9 +32,12 @@
       <module fileurl="file://$PROJECT_DIR$/week2-lambdas-notes/week2-lambdas-notes.iml" filepath="$PROJECT_DIR$/week2-lambdas-notes/week2-lambdas-notes.iml" />
       <module fileurl="file://$PROJECT_DIR$/week3/week3.iml" filepath="$PROJECT_DIR$/week3/week3.iml" />
       <module fileurl="file://$PROJECT_DIR$/week3-streams-notes/week3-streams-notes.iml" filepath="$PROJECT_DIR$/week3-streams-notes/week3-streams-notes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week4/week4.iml" filepath="$PROJECT_DIR$/week4/week4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weeks5-6/weeks5-6.iml" filepath="$PROJECT_DIR$/weeks5-6/weeks5-6.iml" />
       <module fileurl="file://$PROJECT_DIR$/worksheet-1-solid-principles-solutions/worksheet-1-solid-principles-solutions.iml" filepath="$PROJECT_DIR$/worksheet-1-solid-principles-solutions/worksheet-1-solid-principles-solutions.iml" />
       <module fileurl="file://$PROJECT_DIR$/worksheet-2-lambdas-solutions/worksheet-2-lambdas-solutions.iml" filepath="$PROJECT_DIR$/worksheet-2-lambdas-solutions/worksheet-2-lambdas-solutions.iml" />
       <module fileurl="file://$PROJECT_DIR$/worksheet-3-streams-solutions/worksheet-3-streams-solutions.iml" filepath="$PROJECT_DIR$/worksheet-3-streams-solutions/worksheet-3-streams-solutions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/worksheet-4-reflection-solutions/worksheet-4-reflection-solutions.iml" filepath="$PROJECT_DIR$/worksheet-4-reflection-solutions/worksheet-4-reflection-solutions.iml" />
     </modules>
   </component>
 </project>

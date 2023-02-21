@@ -44,6 +44,8 @@ public class AssignmentTest {
             // Bitwise OR the field modifier int with the PRIVATE value.
             // If the method is static the operation result will
             // still equal the original modifier value.
+            // 0b000000010 | 0b000000001 =  0b000000011
+            // 0b000000011 | 0b000000001 =  0b000000011
             assertEquals(fld.getModifiers(), fld.getModifiers() | Modifier.PRIVATE,
                 "Non-private field found.");
         }
