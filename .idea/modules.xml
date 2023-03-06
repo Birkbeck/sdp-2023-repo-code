@@ -22,7 +22,9 @@
       <module fileurl="file://$PROJECT_DIR$/weeks5-6/banas/banas.iml" filepath="$PROJECT_DIR$/weeks5-6/banas/banas.iml" />
       <module fileurl="file://$PROJECT_DIR$/week4/dependency-injection/dependency-injection.iml" filepath="$PROJECT_DIR$/week4/dependency-injection/dependency-injection.iml" />
       <module fileurl="file://$PROJECT_DIR$/weeks5-6/example/example.iml" filepath="$PROJECT_DIR$/weeks5-6/example/example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weeks5-6/extra/extra.iml" filepath="$PROJECT_DIR$/weeks5-6/extra/extra.iml" />
       <module fileurl="file://$PROJECT_DIR$/weeks5-6/from-gof-to-lambda/from-gof-to-lambda.iml" filepath="$PROJECT_DIR$/weeks5-6/from-gof-to-lambda/from-gof-to-lambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week7/module1/module1.iml" filepath="$PROJECT_DIR$/week7/module1/module1.iml" />
       <module fileurl="file://$PROJECT_DIR$/weeks5-6/refactoring-guru/refactoring-guru.iml" filepath="$PROJECT_DIR$/weeks5-6/refactoring-guru/refactoring-guru.iml" />
       <module fileurl="file://$PROJECT_DIR$/week4/reflection/reflection.iml" filepath="$PROJECT_DIR$/week4/reflection/reflection.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/sdp-2023-repo-code.iml" filepath="$PROJECT_DIR$/.idea/sdp-2023-repo-code.iml" />
@@ -33,6 +35,8 @@
       <module fileurl="file://$PROJECT_DIR$/week3/week3.iml" filepath="$PROJECT_DIR$/week3/week3.iml" />
       <module fileurl="file://$PROJECT_DIR$/week3-streams-notes/week3-streams-notes.iml" filepath="$PROJECT_DIR$/week3-streams-notes/week3-streams-notes.iml" />
       <module fileurl="file://$PROJECT_DIR$/week4/week4.iml" filepath="$PROJECT_DIR$/week4/week4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week7/week7.iml" filepath="$PROJECT_DIR$/week7/week7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/week8/week8.iml" filepath="$PROJECT_DIR$/week8/week8.iml" />
       <module fileurl="file://$PROJECT_DIR$/weeks5-6/weeks5-6.iml" filepath="$PROJECT_DIR$/weeks5-6/weeks5-6.iml" />
       <module fileurl="file://$PROJECT_DIR$/worksheet-1-solid-principles-solutions/worksheet-1-solid-principles-solutions.iml" filepath="$PROJECT_DIR$/worksheet-1-solid-principles-solutions/worksheet-1-solid-principles-solutions.iml" />
       <module fileurl="file://$PROJECT_DIR$/worksheet-2-lambdas-solutions/worksheet-2-lambdas-solutions.iml" filepath="$PROJECT_DIR$/worksheet-2-lambdas-solutions/worksheet-2-lambdas-solutions.iml" />
