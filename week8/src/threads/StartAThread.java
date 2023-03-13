@@ -23,8 +23,8 @@ public class StartAThread {
                     System.out.println("TaskWithLambda started... from executor"));
         }
 
-        // virtual thread
-        Thread.startVirtualThread(() ->
+        // virtual thread (require Java 19 preview)
+        Thread vt = Thread.startVirtualThread(() ->
                 System.out.println("TaskWithLambda started... as a virtual thread"));
     }
 }

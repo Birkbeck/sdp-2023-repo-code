@@ -16,9 +16,6 @@ public class CustomThreadPoolExample {
 }
 
 class CustomThreadPool {
-    //Thread pool size
-    private final int poolSize;
-
     //Internally pool is an array
     private final WorkerThread[] workers;
 
@@ -26,10 +23,9 @@ class CustomThreadPool {
     private final LinkedBlockingQueue<Runnable> queue = new LinkedBlockingQueue<>();
 
     public CustomThreadPool(int poolSize) {
-        this.poolSize = poolSize;
         this.workers = new WorkerThread[poolSize];
 
-        for (int i = 0; i < poolSize; i++) {
+        for (int i = 0; i < workers.length; i++) {
             workers[i] = new WorkerThread();
             workers[i].start();
         }
@@ -44,7 +40,7 @@ class CustomThreadPool {
 
     public void shutdown() {
         System.out.println("Shutting down thread pool");
-        for (int i = 0; i < poolSize; i++) {
+        for (int i = 0; i < workers.length; i++) {
             workers[i] = null;
         }
     }

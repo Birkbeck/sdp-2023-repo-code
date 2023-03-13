@@ -16,13 +16,14 @@ public class KillingAThread {
         task2.start();
 
         try {
-            Thread.sleep(1000);
-            task1.stop();
-            task2.stop();
+            Thread.sleep(2000);
         }
         catch (InterruptedException e) {
             System.out.println("Caught:" + e);
         }
+
+        task1.stop();
+        task2.stop();
     }
 
     static void usingInterrupt() {
@@ -33,13 +34,14 @@ public class KillingAThread {
         task2.start();
 
         try {
-            Thread.sleep(1100);
-            task1.interrupt();
-            task2.interrupt();
+            Thread.sleep(2000);
         }
         catch (InterruptedException e) {
             System.out.println("Caught:" + e);
         }
+
+        task1.interrupt();
+        task2.interrupt();
     }
 }
 
